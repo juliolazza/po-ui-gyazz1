@@ -1,0 +1,7 @@
+<div *ngIf="menus" class="po-wrapper">
+	<po-menu [p-menus]="menus" p-filter="true" p-collapsed="true">
+	</po-menu>
+	<po-toolbar p-title="Teste menu">
+	</po-toolbar>
+	<router-outlet></router-outlet>
+</div>
